@@ -5,7 +5,7 @@
 ██████╔╝██║  ██║███████║███████╗
 ╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝
                                 
-# BASE - Custom *(Beddrock Inspired)* WordPress Boilerplate Structure.
+# BASE - Custom WordPress Boilerplate.
 ---
 This boilerplate is heavily inspired by [Roots' Bedrock boilerplate](https://roots.io/bedrock/) but with a few modifications to make my life easier.
 To install, simply run `bash install.sh` or `./install.sh` in terminal.
