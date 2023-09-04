@@ -1,0 +1,18 @@
+{
+    "require" : {
+    "composer/installers" : "^1.2.0",
+    "roots/wp-password-bcrypt" : "1.0.0",
+    "vlucas/phpdotenv" : "^5.5.0",
+    "oscarotero/env" : "^2.0",
+    "johnpbloch/wordpress": "^6.3.0"
+    },
+
+    "extra": {
+    "installer-paths": {
+        "app/www/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+        "app/www/plugins/{$name}/": ["type:wordpress-plugin"],
+        "app/www/themes/{$name}/": ["type:wordpress-theme"]
+    },
+    "wordpress-install-dir": "app/cms"
+    }
+}

@@ -1,0 +1,33 @@
+# App (WordPress)
+app/media/*
+app/.htaccess
+
+# Composer (Build)
+package-lock.json
+node_modules
+vendor/*
+!vendor/.gitkeep
+
+# Config
+.sh
+.env
+.env.*
+config/env/*
+
+# Logs
+logs/*
+*.log
+
+# Misc
+.DS_Store
+.ds_store
+.yml
+.yaml
+.idea/*
+*.sql
+*.sass-cache*
+
+# Keep
+!/**/.gitkeep
+
+# --- end --- #

@@ -1,0 +1,16 @@
+/*
+Theme Name: Vim
+Theme URI: https://wordpress.org/
+Author: Felix Q
+Author URI: https://wordpress.org/
+Description: Bog standard fallback theme to get things going.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: vim
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
